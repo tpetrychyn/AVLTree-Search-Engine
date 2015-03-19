@@ -1,0 +1,119 @@
+An introduction to problem-solving techniques, the fundamental
+concepts of programming, and the software design process. Topics
+include data types, control structures, scope rules, functions,
+files, and the mechanics of running, testing and debugging.
+Problems will be drawn from various science disciplines.
+
+Overview of operating systems: history, functionality, design issues.
+Operating system principles: structures, abstractions, and APIs.
+Concurrency: process state, context switches, mutual exclusion, semaphores,
+deadlock. Scheduling: preemption, schedulers, processes and threads.
+Memory management: swapping, paging, segmentation, placement and
+replacement policies. File systems. User interface. Distributed algorithms:
+consensus, termination, fault tolerance.
+
+Introduction to net-centric computing: network architectures and protocols.
+Communications: transmission fundamentals. Network standards and layers.
+Network security: cryptography, public and private key encryption,
+authentication protocols, digital signatures. Transmission facilities:
+compression, decompression. Error handling. Wide area networks.
+
+Design, implementation, and manipulation of complex abstract data types,
+including trees and graphs. Fundamental algorithms: advanced sorting,
+depth- and breadth-first traversals, string manipulation, pattern matching,
+and graph algorithms. Algorithmic strategies: brute-force, greedy,
+divide-and-conquer, backtracking, branch-and-bound, dynamic programming,
+randomized, parallel, and distributed. Introduction to algorithm analysis
+and complexity theory.
+
+Programming language genealogy and design. Imperative, functional, logic,
+object-oriented, and 4GL language paradigms. Data/control structures,
+exception handling, I/O, program verification, data abstraction,
+information hiding, concurrency and non-determinism. Metalanguages,
+parsing and pattern matching.
+
+Fundamental principles of designing programs and developing large
+software systems that meet specifications and that are safe, secure,
+reliable and dependable. Strategies and techniques of structured
+systems design and development. Prototyping. 4GL. Metrics. Project
+scheduling. Quality control.
+
+History and motivation for database systems. Components of database
+systems and their functions. Data modeling to achieve good database
+design. Relational databases and database query languages. Transaction
+processing. Other topics include distributed databases, physical
+database design, and information retrieval systems.
+
+Discussion of the means in which the computer can be used to visually
+enhance understanding of different kinds of information. Issues include
+representations of objects, methods for viewing and the use of graphics
+tools to understand complex numerical data.
+
+High-level programming language specifications. Lexical and syntactics
+structure, regular expression, finite automata and lexical analyser.
+Context-free grammars and parsing. LR parsers. Symbol tables. Storage
+allocation. Code optimization and generation.
+
+Advanced operating system concepts. Topics include one or more of the
+following: distributed systems; real-time operating systems; intelligent
+networks; communications protocols; database process control within a
+client-server framework.
+
+Classical cryptosystems, data encryption standards, advanced encryption
+algorithms; public key cryptosystems, digital signatures, IP security
+and web security.
+
+This course focuses on the concepts of object-oriented programming.
+Topics include data abstraction, composition and inheritance,
+dynamic binding, polymorphism and dynamic memory management. Other
+topics include fundamental data structures, lists, searching and
+sorting algorithms, language translation, and software engineering
+issues.
+
+Advanced database systems concepts. Topics include one or more of
+the following: in-depth study of topics covered in CS 375; inclusion
+dependency and semantic data models; object-oriented databases;
+probabilistic databases; Web databases; data mining.
+
+This course introduces data abstraction, data structures, the basics
+of algorithmic analysis, and the fundamental computing algorithms.
+Topics include stacks, queues, recursion, asymptotic notation,
+computational complexity, recursion based sorting, algorithms,
+hashing, and trees.
+
+This courses shows how interactive client/server web applications
+are designed and implemented. Appropriate languages for web
+computing will be discussed. Human-computer interfaces, data models,
+and database connectivity will be explored in the context of web computing.
+
+Introduction to computer architecture. Investigation of an actual
+computing system - peripherals, CPU configuration and device
+interfaces. Assembly language programming. Interrupt I/O and A/D,
+D/A device programming.
+
+This course stresses the importance of good interfaces and the
+relationship of user interface design to human-computer interaction.
+Other topics include: interface quality and methods of evaluation;
+interface design examples; dimensions of interface variability;
+dialogue genre; dialogue tools and techniques; user-centered design
+and task analysis; prototyping and the iterative design cycle; user
+interface implementation; prototyping tools and environments; I/O
+devices; basic computer graphics; color and sound.
+
+Finite and discrete algebraic structures relating to computers: sets,
+functions, relations. Machine-oriented logic. Combinatorial problems
+and algorithms. Finite automata and formal language theory.
+
+Foundations, history, and main methods of Artificial Intelligence.
+Intelligent search and optimization techniques with a special focus
+on greedy, randomized, and evolutionary algorithms. Neural networks
+as an example of data-based learning approach. Comparison of classical,
+fuzzy, and probabilistic reasoning and knowledge representation
+methodologies.
+
+Multimedia is the use of computers to integrate texts, graphics, video,
+animation, and sound in an interactive experience. The course
+introduces these elements of multimedia and their associated technologies.
+Students will gain an appreciation of each element and be able to combine
+them into a finished work.
+
