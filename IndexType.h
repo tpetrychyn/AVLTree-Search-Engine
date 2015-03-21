@@ -33,26 +33,37 @@ struct Node {
 
 class IndexType {
 public:
+    // this is the constructor
+    // initializes the tree
     IndexType();
     
     Node* root;
     
+    // assumes p is passed-by-value
     Node* Find(const string& word, Node* p);
     
+    // assumes p is passed-by-reference
     string Insert(const Value& val, Node*& p);
     
+    // assumes p is passed-by-value
     void LL(Node*& p);
     
+    // assumes p is passed-by-value
     void RR(Node*& p);
     
+    // assumes p is passed-by-value
     void LR(Node*& p);
     
+    // assumes p is passed-by-value
     void RL(Node*& p);
     
+    // assumes p is passed-by-reference
     int Height(Node* p);
     
+    // InOrder but flipped left and right
     void ReverseOrder(Node*& p);
     
+    // assumes p is passed-by-value
     void InOrder(Node*& p);
 
 };

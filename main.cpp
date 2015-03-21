@@ -16,7 +16,6 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
     IndexType index;
-    Node* newNode;
     for (int i=1;i<=20;i++) {
         //Open all 20 files
         ifstream inData;
@@ -24,19 +23,20 @@ int main(int argc, const char * argv[]) {
         if (!inData)
             return 0;
         
-        int pagePos = 0;
+        int pagePos = 0; //each new file set to 0, each word increases this by 1 to store the position of it on the page
         while (!inData.eof()) {
             string word;
             inData >> word;
             transform(word.begin(), word.end(), word.begin(), ::tolower); //lowercase
-            Node* searchNode = index.Find(word, index.root);
+            Node* searchNode = index.Find(word, index.root); //see if the word already exists
             if (searchNode == NULL) {
                 Value tempValue;
                 tempValue.occ.InsertUnsorted(i, pagePos);
                 tempValue.word = word;
-                string x = index.Insert(tempValue, index.root);
+                string x = index.Insert(tempValue, index.root); //add a new occurrence of the word if it exists
             } else {
-                searchNode->val.occ.InsertUnsorted(i, pagePos);
+                if (!searchNode->val.occ.IsFull())
+                searchNode->val.occ.InsertUnsorted(i, pagePos); //otherwise insert it to tree
             }
             pagePos++;
         }
@@ -54,12 +54,12 @@ int main(int argc, const char * argv[]) {
     cout << "Enter a word to search: ";
     string searchWord;
     cin >> searchWord;
-    newNode = index.Find(searchWord, index.root);
+    Node* newNode = index.Find(searchWord, index.root); //search for the word
     if (newNode != NULL) {
         newNode->val.occ.ResetP();
         newNode->val.occ.Iterate();
         cout << newNode->val.word;
-        while (newNode->val.occ.IsPSet()) {
+        while (newNode->val.occ.IsPSet()) { //loop through all the occurrencs of the word and print them
             cout << " (" << newNode->val.occ.Read().page << ", " << newNode->val.occ.Read().pos << ")";
             newNode->val.occ.Iterate();
         }
